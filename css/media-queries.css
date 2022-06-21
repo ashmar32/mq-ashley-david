@@ -4,7 +4,27 @@
     background: aqua;
     justify-content: center;
 }
-.h1 {
+h1 {
+    background: grey;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.nav-links {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+}
+li {
+    margin: 5px;
+    background-color: grey;
+    list-style-type: none;
+}
+.header-img {
+    display: flex;
+    height: 224px;
+    width: 339px;
     align-items: center;
 }
