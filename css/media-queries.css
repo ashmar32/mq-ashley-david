@@ -3,9 +3,17 @@
     border: grey solid;
     background: aqua;
     justify-content: center;
+    color: black;
+    padding: .5em;
+
+
+
+
+
+;
 }
 h1 {
-    background: grey;
+
     width: 500px;
     text-align: center;
     margin: 0 auto;
@@ -16,15 +24,35 @@ h1 {
     flex-direction: column;
     height: 150px;
     justify-content: space-around;
+    color: blue;
+
+
+
+
 }
 li {
+    display: flex;
     margin: 5px;
     background-color: grey;
     list-style-type: none;
+    box-sizing: content-box;
+    justify-content:space-around;
+    width: 100%
+
+
+
+
+
+
 }
 .header-img {
     display: flex;
-    height: 224px;
-    width: 339px;
+    height: 900px;
+    width: 400px;
+    align-items: center;
+}
+
+body {
+    padding: 10px;
     align-items: center;
 }
